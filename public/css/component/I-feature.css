@@ -1,0 +1,109 @@
+
+.I-feature{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.I-feature .feature_wrapper{
+	position: relative;
+	padding: 100px 0 100px 0;
+	width: 100%;
+	z-index: 3;
+}
+.I-feature .feature_wrapper .feature_title{
+
+}
+.I-feature .feature_wrapper .feature_title h2{
+	margin: 0 0 15px 0;
+	font-size: 38px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+}
+.I-feature .feature_wrapper .feature_subtitle{
+	margin: 0 0 40px 0;
+	display: flex;
+	justify-content: center;
+}
+.I-feature .feature_wrapper .feature_subtitle h6{
+	width: 100%;
+	max-width: 575px;
+	font-size: 18px;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+}
+.I-feature .feature_wrapper .custom_row{
+	display: flex;
+	margin: 0 -25px 30px -25px;
+}
+.I-feature .feature_wrapper .custom_col{
+	position: relative;
+	padding: 0 25px;
+}
+.I-feature .feature_wrapper .custom_col .border{
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 25px;
+	height: 50px;
+	width: 50px;
+	z-index: 1;
+	border-right: 10px solid #f37021 !important;
+	border-bottom: 10px solid #f37021 !important;
+	border-top: none !important;
+	border-left: none !important;
+}
+.I-feature .feature_wrapper .item_wrapper{
+	width: 100%;
+}
+.I-feature .feature_wrapper .item_wrapper .item_title{
+	width: 100%;
+	margin: 0 0 15px 0;
+	overflow: hidden;
+	display: flex;
+}
+.I-feature .feature_wrapper .item_wrapper .item_title h2{
+	float: left;
+	margin: 0 20px 0 0;
+	opacity: 0.5;
+	font-size: 80px;
+	width: 90px;
+	line-height: 1.05;
+	color: #fff;
+	font-weight: 300;
+}
+.I-feature .feature_wrapper .item_wrapper .item_title p{
+	float: left;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.4;
+	display: flex;
+	align-items: flex-end;
+	color: #fff;
+}
+.I-feature .feature_wrapper .item_wrapper .item_detail{
+	font-size: 15px;
+	line-height: 30px;
+	text-align: left;
+	color: #fff;
+	font-weight: 400;
+	font-style: normal;
+	width: 90%;
+}
+.I-feature .feature_wrapper .item_wrapper .item_detail p{
+	margin: 0 0 10px;
+	font-size: 15px;
+	line-height: 2;
+	color: #fff;
+}
+
+.description-services{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}

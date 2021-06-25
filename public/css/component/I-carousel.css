@@ -1,0 +1,100 @@
+
+.I-carousel{
+	width: 100%;
+	/*height: 80vh;*/
+	/*min-height: 400px;*/
+    background-color: #fff;
+}
+.I-carousel .carousel-inner{
+	width: 100%;
+	/*height: 80vh;*/
+}
+.I-carousel .carousel-inner .item{
+	width: 100%;
+	height: 100%;
+}
+.I-carousel .carousel-inner .item .item_wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .wrapper{
+	width: 960px;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .content_component{
+	float: left;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .image_component{
+	float: left;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .image_component img{
+	width: 100%;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .content_component h2{
+	font-size: 40px;
+	line-height: 40px;
+	margin: 0 0 32px 0;
+	color: #fff;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .content_component p{
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 40px 0;
+	color: #fff;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .content_component .button_wrapper{
+	
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .content_component .button_wrapper a{
+	padding: 5px 15px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin: 0 10px 0 0;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .content_component .button_wrapper a:nth-child(2){
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.I-carousel .carousel-inner .item .item_wrapper .content_wrapper .content_component .button_wrapper a i{
+	margin: 0 0 0 10px;
+}
+.I-carousel .carousel-inner .item .item_wrapper img{
+	width: 100%;
+}
+.I-carousel .carousel-inner .item .item_wrapper .bg_wrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #00000085;
+	background-color: #002e6a17;
+	z-index: 2;
+}
+.carousel-control{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

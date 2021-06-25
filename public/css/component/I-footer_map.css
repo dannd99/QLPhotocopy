@@ -1,0 +1,19 @@
+.I-footer_map{
+	width: 100%;
+	background-color: #191718;
+}
+.I-footer_map img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/*background-color: red;*/
+}
+.map_wrapper{
+	position: relative;
+	width: 50%;
+	height: 500px;
+}
+.I-footer_map svg{
+	/*width: 100%;*/
+}

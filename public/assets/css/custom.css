@@ -1,0 +1,52 @@
+body{
+    font-family: arial !important;
+}
+.align-justify-center{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.align-center{
+    display: flex;
+    align-items: center;
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-left{
+    margin-right: auto;
+}
+.flex-right{
+    margin-left: auto;
+}
+.relative{
+	position: relative !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+     font-weight: 600;
+}
+
+
+.input-group-text{
+    min-width: 120px;
+}
+.quick-view .modal-dialog{
+    width: 400px !important;
+}
+
+
+.image_avatar{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_avatar img{
+    width: 100%;
+    height: auto;
+}
+#services-image{
+    height: 200px;
+}
