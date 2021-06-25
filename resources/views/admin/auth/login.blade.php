@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33,7 +32,7 @@
     <div class="app">
         <div class="container-fluid p-0 h-100">
             <div class="row no-gutters h-100 full-height">
-                <div class="col-lg-4 d-none d-lg-flex bg" style="background-image:url('{{ asset('images/avo-on-toast-1000x2000.jpg') }}')">
+                <div class="col-lg-4 d-none d-lg-flex bg" style="background-image:url('{{ asset('images/image2.jpeg') }}')">
                     <div class="d-flex h-100 p-h-40 p-v-15 flex-column justify-content-between">
                     </div>
                 </div>

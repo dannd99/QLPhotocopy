@@ -92,7 +92,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-semibold">Slide/ trang:</label>
-                                <input type="number" class="form-control" name="slide" value="1" min="1">
+                                <input type="number" class="form-control" name="slide" value="1" min="1" max="4">
                             </div>
                             <div class="form-group">
                                 <label class="font-weight-semibold">Đường dẫn file:</label>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Enlink - Admin Dashboard Template</title>
+    <title>Register</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo/logo.png">
@@ -26,7 +26,7 @@
                             <div class="card shadow-lg">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center justify-content-between m-b-30">
-                                        <img class="img-fluid" alt="" src="assets/images/logo/logo.png">
+                                        <img class="img-fluid" style="width: 200x; height: 100px" alt="" src="assets/images/logo/logo1.png">
                                         <h2 class="m-b-0">Sign Up</h2>
                                     </div>
                                     @if ($errors->any())

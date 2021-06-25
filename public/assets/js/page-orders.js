@@ -9,7 +9,7 @@ const View = {
         __table: null,
         __rows: [],
         __selected: {},
-        __paginationList: [10, 20, 50, 100],
+        __paginationList: [5,10, 20, 50, 100],
         barge: [
             "badge-gold",
             "badge-purple",

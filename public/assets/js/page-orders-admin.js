@@ -9,7 +9,7 @@ const View = {
         __table: null,
         __rows: [],
         __selected: {},
-        __paginationList: [10, 20, 50, 100],
+        __paginationList: [5, 10, 20, 50, 100],
         barge: [
             "badge-gold",
             "badge-purple",
@@ -51,7 +51,7 @@ const View = {
                 new Date(data.created_at).toLocaleString('vi'),
                 `<span class="badge badge-pill ${this.barge[data.status]}">${this.barge_title[data.status]}</span>
                 <span class="badge badge-pill ${this.payment[data.payment_status]}">${this.payment_title[data.payment_status]}</span>`,
-                `<a href="/admin/order-admin-view/${data.id}" class="view-order" style="cursor: pointer"><i class="anticon anticon-eye"></i></a>`
+                `<a href="/admin/order-admin-view/${data.id}" class="view-order" style="cursor: pointer"><i  class="anticon anticon-eye"></i></a>`
             ];
         },
         clearRows() {

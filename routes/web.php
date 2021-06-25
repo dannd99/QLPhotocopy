@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 // Auth Customer
 
-Route::get('/', 'DisplayCustomerController@index')->name('customer.index');
+// Route::get('/', 'DisplayCustomerController@index')->name('customer.index');
 
 
 
@@ -39,7 +39,7 @@ Route::middleware(['checklogincustomer:customer'])->group(function () {
 	
 
 	//danh sách dịch vụ
-	Route::get('customer-services', 'DisplayCustomerController@services')->name('customer.services');
+	Route::get('/', 'DisplayCustomerController@services')->name('customer.services');
 	Route::get('customer-services-detail/{id}', 'DisplayCustomerController@servicesDetail')->name('customer.servicesDetail');
 
 
@@ -84,7 +84,7 @@ Route::prefix('admin')->group(function () {
 	Route::middleware(['checklogin:admin'])->group(function () {
 		Route::get('/', 'DisplayController@order')->name('admin.order');
 		Route::post('logout', 'AuthenController@logout')->name('admin.logout');
-
+		Route::get('/bill/{id}','DisplayController@bill')->name('admin.bill');
 		Route::get('/order-admin-view/{id}', 'DisplayController@orderView')->name('admin.orderView');
 		Route::post('/order-admin-view', 'DisplayController@orderUpdateStatus')->name('admin.orderUpdateStatus');
 

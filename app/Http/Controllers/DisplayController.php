@@ -66,4 +66,10 @@ class DisplayController extends Controller
 		$this->order->orderUpdateStatus($request->order_id, $status);
 		return redirect()->route('admin.order');  
 	}
+	public function bill($id){
+		$order= $this->order->find($id);
+		$customer 	= $this->customer->getCustomer($order->customer_id);
+		$service 	= $this->services->findName($order->services_name);
+		return view('admin.order.bill', compact('order','service','customer'));
+	}
 }
