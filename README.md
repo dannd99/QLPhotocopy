@@ -11,7 +11,7 @@
     > cp .env.example .env
 
 * Tạo key
-    > php artisan key:generate
+    > php artisan key: generate
 
 * Tạo ra các bảng và dữ liệu mẫu cho database
     > php artisan migrate
